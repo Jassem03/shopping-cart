@@ -1,0 +1,40 @@
+.cart {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.item-name {
+  flex: 1;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity button {
+  margin: 0 5px;
+}
+
+.total {
+  width: 80%;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.total-price {
+  font-weight: bold;
+}
+
+.liked {
+  color: red;
+}
